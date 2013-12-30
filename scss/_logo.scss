@@ -1,0 +1,27 @@
+.logo
+{
+	@include bello;
+
+	display: inline-block;
+
+	font-size: 1.8em;
+}
+
+.logo-white{ color: WHITE; }
+.logo-black{ color: BLACK; }
+.logo-orange{ color: ORANGE; }
+
+.logo-display
+{
+	text-align: center;
+
+	span
+	{
+		padding: 5px 10px;
+	}
+
+	.logo-white
+	{
+		background-color: BLACK;
+	}
+}

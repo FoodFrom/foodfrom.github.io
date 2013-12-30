@@ -1,0 +1,29 @@
+@import url("http://fonts.googleapis.com/css?family=Gudea:400,700,400italic");
+
+//Font Stacks
+@mixin carved {
+	font-family: "aw-conqueror-carved",sans-serif;
+}
+
+@mixin slab {
+	font-family: "aw-conqueror-slab",serif;
+}
+
+@mixin gudea {
+	font-family: 'Gudea', sans-serif;
+}
+
+@mixin bello {
+	font-family: "bello-pro", sans-serif;
+}
+
+@mixin proxima-nova {
+	font-family: "proxima-nova", sans-serif;
+}
+
+body
+{
+	@include proxima-nova;
+
+	color: BLACK;
+}

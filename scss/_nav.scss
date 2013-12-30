@@ -1,0 +1,29 @@
+nav
+{
+	float: left;
+
+	ul.nav
+	{
+		list-style-type: none;
+		padding: 0;
+
+		li
+		{
+			display: inline-block;
+			padding: 5px 10px;
+
+			a
+			{
+				color: WHITE;
+				display: block;
+				text-decoration: none;
+
+				&:hover
+				{
+					color: ORANGE;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

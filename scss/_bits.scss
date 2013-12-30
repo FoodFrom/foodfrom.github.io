@@ -1,0 +1,38 @@
+// Media Queries
+@mixin breakpoint($point) {
+	@if $point == papa-bear {
+		@media (max-width: 1600px) { @content; }
+	}
+	@else if $point == mama-bear {
+		@media (max-width: 1250px) { @content; }
+	}
+	@else if $point == baby-bear {
+		@media (max-width: 650px)  { @content; }
+	}
+}
+
+@mixin retina() {
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { @content; }
+}
+
+.icon-silverware
+{
+	display: inline-block;
+
+	background: url('../../img/build/icon.png');
+
+	@include retina(){
+		background: url('../../img/build/icon_@2x.png');
+	}
+}
+
+a
+{
+	color: ORANGE;
+	text-decoration: none;
+
+	&:hover
+	{
+		text-decoration: underline;
+	}
+}

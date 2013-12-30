@@ -1,0 +1,40 @@
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0; right: 0;
+
+	background: url('../../img/wood_1.png');
+	background-repeat: repeat;
+
+	color: WHITE;
+
+	@include retina(){
+		background: url('../../img/wood_1_@2X.png');
+	}
+
+	.logo
+	{
+		@include bello;
+
+		float: right;
+		line-height: 60px;
+		font-size: 1.6em;
+
+		padding-right: 10px;
+
+		color: WHITE;
+		text-decoration: none;
+
+		&:hover
+		{
+			color: ORANGE;
+		}
+	}
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

@@ -1,0 +1,38 @@
+@import "../normalize.css";
+
+@import "grid";
+@import "bits";
+@import "typography";
+@import "splash";
+@import "header";
+@import "nav";
+@import "footer";
+@import "logo";
+
+*
+{
+	box-sizing: border-box;
+}
+
+section
+{
+	clear: both;
+	padding-bottom: 20px;
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	h3
+	{
+		padding-bottom: 5px;
+		border-bottom: 1px solid LIGHTGREY;
+	}
+}
+
+body
+{
+	padding-top: 60px;
+}
