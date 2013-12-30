@@ -9,4 +9,4 @@
 	$ npm install
 	$ grunt dev
 	
-First you need to install the proper node modules using `npm install`. Then to have grunt start watching for changes, runt `grunt dev`
+First you need to install the proper node modules using `npm install`. Then to have grunt start watching for changes, run `grunt dev`
