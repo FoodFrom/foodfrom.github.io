@@ -1,0 +1,61 @@
+// Buttons
+button, .btn
+{
+	background: WHITE;
+	border: 2px solid GREY;
+
+	border-radius: 5px;
+
+	padding: 5px 10px;
+
+	color: GREY;
+
+	&:hover
+	{
+		background: GREY;
+		color: WHITE;
+	}
+}
+
+.btn-med
+{
+	padding: 10px 15px;
+}
+
+.btn-large
+{
+	padding: 15px 20px;
+}
+
+.btn-danger
+{
+	border-color: RED;
+	color: RED;
+
+	&:hover
+	{
+		background: RED;
+	}
+}
+
+.btn-save
+{
+	border-color: GREEN;
+	color: GREEN;
+
+	&:hover
+	{
+		background: GREEN;
+	}
+}
+
+.btn-action
+{
+	border-color: ORANGE;
+	color: ORANGE;
+
+	&:hover
+	{
+		background: ORANGE;
+	}
+}
