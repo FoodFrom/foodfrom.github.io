@@ -1,5 +1,4 @@
 # Getting Started
-===========================
 
 ### Requirements
 * npm - <https://npmjs.org/>
